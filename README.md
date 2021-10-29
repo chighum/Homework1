@@ -16,4 +16,4 @@ In order to download and edit the project repository simply fork this repository
 
 This website can be can be accessed at https://chighum.github.io/Homework1-Refactoring/, and is a great stock template for a marketing agency website. You can also see a screen shot of the website below:
 
-`md ![alt text](./assets/images.Screenshot.png)`
+![Website Screenshot](./assets/images/Screenshot.png)
