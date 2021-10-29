@@ -1,9 +1,11 @@
+/* This is the universal selector, allowing us to make changes to the entire HTML document at once */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Below are HTML element selectors, allowing us to call on a specific HTML element tag and style it using CSS */
 body {
   background-color: #d9dcd6;
 }
@@ -21,6 +23,7 @@ h1 {
   font-size: 48px;
 }
 
+/* This forces the nav bar to the right of the webpage and controls font-family and font-size */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -29,10 +32,12 @@ nav {
   font-size: 20px;
 }
 
+/* This removes the bullet points from the list items in the nav bar */
 ul {
   list-style-type: none;
 }
 
+/* This makes the list items in the nav bar display in one row instead of column */
 li {
   display: inline-block;
   margin-left: 25px;
@@ -47,6 +52,7 @@ p {
   font-size: 16px;
 }
 
+/* This makes the main text section take up 75% of the viewport width and sets the left margin to 20px*/
 main {
   width: 75%;
   display: inline-block;
@@ -58,6 +64,7 @@ h2 {
   font-size: 36px;
 }
 
+/* This sets the side section to be 100% of the viewport height but only 20% of the total width of the viewport and sets the right margin to be 20px*/
 aside {
   margin-right: 20px;
   padding: 20px;
@@ -86,27 +93,8 @@ h4 {
   font-size: 20px;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
-.benefits {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefits img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
+/* Below are the class selectors, allowing us to call on a specific class that we made in HTML and style it using CSS */
+/* This first class selector controls the certain features you can see below for all the instances the class is called in HTML*/
 .section1 {
   margin-bottom: 20px;
   padding: 50px;
@@ -120,10 +108,36 @@ h4 {
   max-height: 200px;
 }
 
+/* This forces the images in the 1st and 3rd main sections to the left of the box */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+/* This forces the image in the middle main section to the right side of the box */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.benefits {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* This foreces all three images within the benefits section to be stacked with the other content in the center of the sidebar section */
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* Below are the id selectors, which are very similar to class selectors but are used when it's something that's only called on once */
+/* This id changes the "seo" in the name "Horiseon" to a different color than the rest of the text */
 #seo {
   color: #d9dcd6;
 }
 
+/* This id below depicts the large background image seen on the page*/
 #hero {
   height: 800px;
   width: 100%;
